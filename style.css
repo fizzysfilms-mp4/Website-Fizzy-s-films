@@ -1,0 +1,39 @@
+html {
+  /* 1vw means 1% of the screen width. As the screen shrinks, the base font shrinks. */
+  font-size: 1vw; 
+}
+
+
+body {
+  background-color: white;
+  width: 80rem;       
+  padding: 2rem;
+  font-size: 1.6rem; 
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+}
+.banner-container {
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    
+}
+
+.block {
+    flex:auto;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+  
+}
+
+.block img {
+    flex:auto;
+    max-width: 1000px;
+    height: auto;
+}
